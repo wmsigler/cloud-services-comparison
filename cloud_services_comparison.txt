@@ -1,0 +1,82 @@
+|======================|==============================|====================================|==================================|===============================================|
+| Service Category     | Service                      | Amazon Web Services (AWS)          | Google Cloud Platform (GCP)      | Microsoft Azure                               |
+|======================|==============================|====================================|==================================|===============================================|
+| Compute              | IaaS                         | Amazon Elastic Compute Cloud (EC2) | Compute Engine                   | Azure Virtual Machines                        |
+|                      |------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+|                      | PaaS                         | AWS Elastic Beanstalk              | App Engine                       | App Service, Cloud Services                   |
+|                      |------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+|                      | Container                    | Amazon Elastic Container Service   | Google Kubernetes Engine         | Azure Container Service, Azure Service Fabric |
+|                      |------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+|                      | Serverless Functions         | AWS Lambda                         | Cloud Functions                  | Azure Functions                               |
+|                      |------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+|                      | Managed Batch Computing      | AWS Batch                          | N/A                              | Azure Batch                                   |
+|----------------------|------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+| Network              | Virtual Networks             | Amazon Virtual Private Cloud       | Virtual Private Cloud            | Azure VNets                                   |
+|                      |------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+|                      | Load Balancer                | Elastic Load Balancer              | Cloud Load Balancing             | Azure Load Balancer, Application Gateway      |
+|                      |------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+|                      | Dedicated Interconnect       | Direct Connect                     | Cloud Interconnect               | ExpressRoute                                  |
+|                      |------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+|                      | Domains and DNS              | Amazon Route 53                    | Google Domains, Cloud DNS        | Azure DNS                                     |
+|                      |------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+|                      | CDN                          | Amazon CloudFront                  | Cloud CDN                        | Azure CDN                                     |
+|----------------------|------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+| Storage              | Object Storage               | Amazon Simple Storage Service (S3) | Cloud Storage                    | Azure Blob Storage                            |
+|                      |------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+|                      | Block Storage                | Amazon Elastic Block Storage       | Persistent Disk                  | Disk Storage                                  |
+|                      |------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+|                      | Reduced-availability Storage | S3 Standard-Infrequent access      | Cloud Storage Nearline           | Azure Cool Blob Storage                       |
+|                      |                              | S3 One Zone-Infrequent access      |                                  |                                               |
+|                      |------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+|                      | Archival Storage             | Amazon Glacier                     | Cloud Storage Coldline           | Azure Archive Blob Storage                    |
+|                      |------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+|                      | File Storage                 | Amazon Elastic File System         | Cloud Filestore (beta)           | Azure File Storage                            |
+|----------------------|------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+| Database             | RDBMS                        | Amazon Relational Database Service | Cloud SQL                        | SQL Database                                  |
+|                      |                              | Amazon Aurora                      | Cloud Spanner                    |                                               |
+|                      |------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+|                      | NoSQL: Key-value             | Amazon DynamoDB                    | Cloud Firestore, Cloud Bigtable  | Table Storage                                 |
+|                      |------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+|                      | NoSQL: Indexed               | Amazon SimpleDB                    | Cloud Firestore                  | Cosmos DB                                     |
+|----------------------|------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+| Big Data & Analytics | Batch Data Processing        | Amazon Elastic MapReduce           | Cloud Dataproc                   | HDInsight                                     |
+|                      |                              | AWS Batch                          | Cloud Dataflow                   | Azure Batch                                   |
+|                      |------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+|                      | Stream Data Processing       | Amazon Kinesis                     | Cloud Dataflow                   | Stream Analytics                              |
+|                      |------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+|                      | Stream Data Ingest           | Amazon Kinesis                     | Cloud Pub/Sub                    | Event Hubs, Service Bus                       |
+|                      |------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+|                      | Analytics                    | Amazon Redshift, Amazon Athena     | BigQuery                         | Data Lake Analytics, Data Lake Store          |
+|                      |------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+|                      | Workflow Orchestration       | Amazon Data Pipeline, AWS Glue     | Cloud Composer                   | Data Factory                                  |
+|----------------------|------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+| Application Services | Messaging                    | Amazon Simple Notification Service | Cloud Pub/Sub                    | Service Bus                                   |
+|                      |                              | Amazon Simple Queueing Service     |                                  |                                               |
+|----------------------|------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+| Management Services  | Monitoring                   | Amazon CloudWatch                  | Stackdriver Monitoring           | Application Insights                          |
+|                      |------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+|                      | Logging                      | Amazon CloudWatch Logs             | Stackdriver Logging              | Application Insights                          |
+|                      |------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+|                      | Deployment                   | AWS CloudFormation                 | Cloud Deployment Manager         | Azure Resource Manager                        |
+|----------------------|------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+| Machine Learning     | Speech                       | Amazon Transcribe                  | Cloud Speech-to-Text             | Speech Services                               |
+|                      |------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+|                      | Vision                       | Amazon Rekognition                 | Cloud Vision                     | Cognitive Services                            |
+|                      |------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+|                      | Natural Language Processing  | Amazon Comprehend                  | Cloud Natural Language           | Text Analytics                                |
+|                      |------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+|                      | Translation                  | Amazon Translate                   | Cloud Translation                | Translator Text, Speech Translator            |
+|                      |------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+|                      | Conversational Interface     | Amazon Lex                         | Dialogflow Enterprise Edition    | Speech Services, Language Understanding       |
+|                      |------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+|                      | Video Intelligence           | Amazon Rekognition Video           | Cloud Video Intelligence         | Media Analytics                               |
+|                      |------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+|                      | Auto-generated Models        | N/A                                | Cloud AutoML (beta)              | Azure Machine Learning                        |
+|                      |------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+|                      | Fully Managed ML             | Amazon SageMaker                   | Cloud Machine Learning Engine    | Azure Machine Learning Studio                 |
+|----------------------|------------------------------|------------------------------------|----------------------------------|-----------------------------------------------|
+
+Sources as of 23 August 2019:
+https://docs.microsoft.com/en-us/azure/architecture/aws-professional/services
+https://cloud.google.com/free/docs/map-aws-google-cloud-platform
+https://cloud.google.com/free/docs/map-azure-google-cloud-platform
